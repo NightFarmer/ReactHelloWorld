@@ -1,4 +1,4 @@
-let Divider = React.createClass({
+let Foo = React.createClass({
     defaultValue: "默认值",
 
     render: function () {
@@ -16,7 +16,7 @@ class DateLabel extends React.Component {
 
     currentDateParser() {
         let now = new Date();
-        return [now.getFullYear(), now.getMonth(), now.getDate()].join("-")
+        return [now.getFullYear(), now.getMonth() + 1, now.getDate()].join("-")
     }
 
     render() {
@@ -24,7 +24,7 @@ class DateLabel extends React.Component {
     }
 }
 
-class D2 extends React.Component {
+class Bar extends React.Component {
     constructor(props) {
         super(props);
         this.defaultValue = "默认值";
@@ -72,6 +72,6 @@ class D2 extends React.Component {
 
 
 ReactDOM.render(
-    <D2>Hello, world!</D2>,
+    <Bar/>,
     document.getElementById('root')
 );

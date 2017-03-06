@@ -74,7 +74,6 @@ class CalendarDayItem extends React.Component {
 }
 
 class CalendarContent extends React.Component {
-
     constructor(props) {
         super(props);
         this.itemWidth = Math.floor(this.props.width / 7)
