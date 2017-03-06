@@ -1,0 +1,79 @@
+.top-bar {
+    height: 50px;
+    width: 100%;
+    background: #0ec27c;
+}
+
+.content {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f7f7f7;
+}
+
+.left-bar {
+    height: 100%;
+    width: 250px;
+    background: #dddddd;
+    position: relative;
+}
+
+.left-bar-list {
+    position: relative;
+    top: 0;
+    overflow: hidden;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 100%;
+    outline: none;
+    /*width:100;*/
+    right: 0;
+    left: 0;
+    /*background: #ad77ff;*/
+}
+
+.file-manger-container {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+}
+
+.file-manger-list {
+    height: 100%;
+    width: 280px;
+    background: #ffffff;
+    position: relative;
+}
+
+.file-manger-detail {
+    position: absolute;
+    left: 280px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+}
+
+.file-manger-detail-text {
+    width: 100%; /*自动适应父布局宽度*/
+    height: 100%;
+    overflow: auto;
+    border: none;
+    margin: 0;
+}
+
+.drag-line {
+    cursor: ew-resize;
+    top: 0;
+    right: -4px;
+    width: 7px;
+    height: 100%;
+    position: absolute;
+    z-index: 1;
+    background: rgba(255, 0, 0, 0.1);
+}
