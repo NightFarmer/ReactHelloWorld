@@ -134,5 +134,6 @@ class CalendarView extends React.Component {
 
 ReactDOM.render(
     <CalendarView style={{width: 300, backgroundColor: "#eefff6"}} year="2017" month="4"/>,
-    document.getElementById("root")
+    // document.getElementById("root")
+    document.body
 );
